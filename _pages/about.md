@@ -9,8 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Ph.D. Student at Cornell University</p>
-    <p>tl889@cornell.edu</p>
+    <p>tl889[at]cornell.edu</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -150,7 +149,7 @@ Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-83
 <!-- Paper 6 -->
 <div class="row" style="margin-bottom: 30px;">
   <div class="col-sm-4 mt-3 mt-sm-0">
-    <img src="/assets/img/paper_llm_blind_vr.jpg" alt="project teaser" class="img-fluid rounded z-depth-1">
+    <img src="/assets/publication_img/AI Guide.png" alt="project teaser" class="img-fluid rounded z-depth-1">
   </div>
   <div class="col-sm-8">
     <h4 style="margin-top: 0; font-size: 1.2rem;">
@@ -192,7 +191,7 @@ Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-83
 <!-- Paper 8 -->
 <div class="row" style="margin-bottom: 30px;">
   <div class="col-sm-4 mt-3 mt-sm-0">
-    <img src="/assets/img/paper_social_influence.jpg" alt="project teaser" class="img-fluid rounded z-depth-1">
+    <img src="/assets/publication_img/default.png" alt="project teaser" class="img-fluid rounded z-depth-1">
   </div>
   <div class="col-sm-8">
     <h4 style="margin-top: 0; font-size: 1.2rem;">
@@ -212,7 +211,7 @@ Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-83
 <!-- Paper 9 -->
 <div class="row" style="margin-bottom: 30px;">
   <div class="col-sm-4 mt-3 mt-sm-0">
-    <img src="/assets/img/paper_invisible_strings.jpg" alt="project teaser" class="img-fluid rounded z-depth-1">
+    <img src="/assets/publication_img/default.png" alt="project teaser" class="img-fluid rounded z-depth-1">
   </div>
   <div class="col-sm-8">
     <h4 style="margin-top: 0; font-size: 1.2rem;">
