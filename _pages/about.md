@@ -12,8 +12,8 @@ profile:
     <p>Ph.D. Student at Cornell University</p>
     <p>tl889@cornell.edu</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items
@@ -36,3 +36,52 @@ I am the co-founder of ItsLife, where we developed an interactive robotic compan
 
 Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-833941328/).
 
+
+## Publications
+
+<div class="row" style="margin-bottom: 30px;">
+  <!-- 左侧：图片或动图 -->
+  <div class="col-sm-4 mt-3 mt-sm-0">
+    <!-- 将 src 替换为你 assets 文件夹中的图片/动图路径 -->
+    <img src="/assets/img/paper1_demo.gif" alt="project teaser" class="img-fluid rounded z-depth-1">
+  </div>
+  
+  <!-- 右侧：论文信息 -->
+  <div class="col-sm-8">
+    <!-- 标题及链接 -->
+    <h4 style="margin-top: 0; font-size: 1.2rem;">
+      <a href="https://your-paper-link.com" target="_blank">Proactive AI Interventions in Dynamic Environments</a>
+    </h4>
+    <!-- 作者，可以使用 <strong> 加粗你的名字 -->
+    <p style="margin-bottom: 5px;">
+      <strong>Tianqi Liu</strong>, Saleh Kalantari, Andrea Stevenson Won
+    </p>
+    <!-- 发表的会议/期刊 (可选) -->
+    <p style="margin-bottom: 10px;"><em>CHI 2024</em></p>
+    <!-- 论文描述 -->
+    <p style="font-size: 0.9rem; text-align: justify;">
+      This paper introduces a novel framework for proactive AI that anticipates human states and intervenes at the right moment. We developed an interactive robotic companion with bipedal locomotion...
+    </p>
+  </div>
+</div>
+
+<hr> <!-- 分割线 -->
+
+<!-- 第二篇论文的区块 -->
+<div class="row" style="margin-bottom: 30px;">
+  <div class="col-sm-4 mt-3 mt-sm-0">
+    <img src="/assets/img/paper2_demo.jpg" alt="project teaser" class="img-fluid rounded z-depth-1">
+  </div>
+  <div class="col-sm-8">
+    <h4 style="margin-top: 0; font-size: 1.2rem;">
+      <a href="https://your-second-paper-link.com" target="_blank">Generative Agents for Decision-Making</a>
+    </h4>
+    <p style="margin-bottom: 5px;">
+      <strong>Tianqi Liu</strong>, Qian Yang
+    </p>
+    <p style="margin-bottom: 10px;"><em>UIST 2023</em></p>
+    <p style="font-size: 0.9rem; text-align: justify;">
+      We modeled human decision-making using generative agents, simulating unpredictable behaviors in dynamically generated environments.
+    </p>
+  </div>
+</div>
