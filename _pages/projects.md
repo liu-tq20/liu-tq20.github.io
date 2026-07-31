@@ -13,7 +13,7 @@ nav_order: 3
   <div class="row" style="margin-bottom: 40px;">
     <div class="col-sm-4 mt-3 mt-sm-0">
       <!-- 请替换为 Bonny 的实际图片或动图路径 -->
-      <img src="/assets/img/project_bonny.gif" alt="Bonny Robot" class="img-fluid rounded z-depth-1">
+      <img src="/assets/project_img/Bonny.gif" alt="Bonny Robot" class="img-fluid rounded z-depth-1">
     </div>
     <div class="col-sm-8">
       <h3 style="margin-top: 0; font-size: 1.5rem;">Bonny — A Living Desktop Robot</h3>
@@ -35,7 +35,7 @@ nav_order: 3
   <div class="row" style="margin-bottom: 40px; margin-top: 40px;">
     <div class="col-sm-4 mt-3 mt-sm-0">
       <!-- 请替换为配载项目的实际图片或界面截图 -->
-      <img src="/assets/img/project_stowage.jpg" alt="Stowage Planning AI" class="img-fluid rounded z-depth-1">
+      <img src="/assets/project_img/AI Stowage.png" alt="Stowage Planning AI" class="img-fluid rounded z-depth-1">
     </div>
     <div class="col-sm-8">
       <h3 style="margin-top: 0; font-size: 1.5rem;">AI for Container Ship Stowage Planning</h3>
