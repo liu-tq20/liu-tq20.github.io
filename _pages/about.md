@@ -36,7 +36,11 @@ I am the co-founder of ItsLife, where we developed an interactive robotic compan
 Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-833941328/).
 
 
-## Publications
+<!-- 清除上方的浮动，防止照片挤压下方内容 -->
+<div class="clearfix"></div>
+
+<!-- 给 Publications 标题增加一点顶部间距，看起来更美观 -->
+<h2 style="margin-top: 40px;">Publications</h2>
 
 <!-- Paper 1 -->
 <div class="row" style="margin-bottom: 30px;">
@@ -170,7 +174,7 @@ Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-83
 <!-- Paper 7 -->
 <div class="row" style="margin-bottom: 30px;">
   <div class="col-sm-4 mt-3 mt-sm-0">
-    <img src="/assets/publication_img/noticability.jpg" alt="project teaser" class="img-fluid rounded z-depth-1">
+    <img src="/assets/publication_img/noticability.png" alt="project teaser" class="img-fluid rounded z-depth-1">
   </div>
   <div class="col-sm-8">
     <h4 style="margin-top: 0; font-size: 1.2rem;">
