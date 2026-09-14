@@ -29,7 +29,7 @@ I am a Ph.D. student in Information Science at Cornell University, working with 
 
 I hold Computer Science degrees from Tsinghua University (B.A., 2020-2024).
 
-My research focuses on proactive AI that anticipates human states and intervenes at the right moment, as well as generative agents that model human decision-making.
+My research focuses on **proactive AI** that anticipates human states and intervenes at the right moment, as well as **generative agents** that model human decision-making in spatial movement.
 
 I am the co-founder of ItsLife, where we're building AI (deep RL) -powered stowage planning software for container shipping — and I'm glad to share our team was admitted to eLab accelerator.
 
@@ -50,7 +50,7 @@ Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-83
   </div>
   <div class="col-sm-8">
     <h4 style="margin-top: 0; font-size: 1.2rem;">
-      <a href="https://dail.human.cornell.edu/projectsdail/may-i-help-you%3F-predicting-help-seeking-in-human-agent-teaming-in-challenging-environments" target="_blank">May I Help You? Predicting Help-seeking in Human-Agent Teaming in Challenging Environments</a>
+      <a href="https://nocworkshop.github.io/2026/resources/3/May%20I%20Help%20You_Full%20Paper_Tianqi%20Liu.pdf" target="_blank">May I Help You? Predicting Help-seeking in Human-Agent Teaming in Challenging Environments</a>
     </h4>
     <p style="margin-bottom: 5px;">
       <strong>Tian-Qi Liu</strong>, Wei-Che Lin, Yejoon Yoo, Saleh Kalantari, Andrea Stevenson Won
@@ -62,6 +62,10 @@ Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-83
     <!-- LA Weekly Media Coverage Badge -->
     <a href="https://www.laweekly.com/designing-with-empathy-inside-tianqi-lius-human-centered-vision-for-the-future-of-ai/" target="_blank" class="btn btn-sm btn-outline-primary z-depth-0" style="padding: 2px 8px; font-size: 0.8rem; text-transform: none; border-radius: 4px;">
       <i class="fas fa-newspaper"></i> Featured in LA Weekly: Designing with Empathy
+    </a>
+    <!-- Best Paper Award Badge -->
+    <a href="https://nocworkshop.github.io/2026/" target="_blank" class="btn btn-sm btn-outline-primary z-depth-0" style="padding: 2px 8px; font-size: 0.8rem; text-transform: none; border-radius: 4px;">
+      <i class="fas fa-award"></i> Best Paper Award from The 3rd Workshop on Nonverbal Cues for Human-Robot Cooperative Intelligence (organized by Honda Research Institute)
     </a>
   </div>
 </div>
