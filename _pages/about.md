@@ -31,7 +31,7 @@ I hold Computer Science degrees from Tsinghua University (B.A., 2020-2024).
 
 My research focuses on proactive AI that anticipates human states and intervenes at the right moment, as well as generative agents that model human decision-making.
 
-I am the co-founder of ItsLife, where we developed an interactive robotic companion with bipedal locomotion and dynamically generated, unpredictable behaviors.
+I am the co-founder of ItsLife, where we're building AI (deep RL) -powered stowage planning software for container shipping — and I'm glad to share our team was admitted to eLab accelerator.
 
 Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-833941328/).
 
