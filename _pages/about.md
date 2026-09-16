@@ -46,7 +46,7 @@ Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-83
 <div class="row" style="margin-bottom: 30px;">
   <div class="col-sm-4 mt-3 mt-sm-0">
     <!-- 请替换为你的实际图片/动图路径 -->
-    <img src="/assets/publication_img/diver guide.png" alt="project teaser" class="img-fluid rounded z-depth-1">
+    <img src="/assets/publication_img/diver guide.png" alt="project teaser" class="img-fluid rounded z-depth-1" style="cursor: zoom-in;" onclick="openImgLightbox(this.src)">
   </div>
   <div class="col-sm-8">
     <h4 style="margin-top: 0; font-size: 1.2rem;">
@@ -60,11 +60,11 @@ Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-83
       Developed a machine learning-based AI model to detect human intention, focusing on identifying when assistance is needed during challenging underwater navigation tasks.
     </p>
     <!-- LA Weekly Media Coverage Badge -->
-    <a href="https://www.laweekly.com/designing-with-empathy-inside-tianqi-lius-human-centered-vision-for-the-future-of-ai/" target="_blank" class="btn btn-sm btn-outline-primary z-depth-0" style="padding: 2px 8px; font-size: 0.8rem; text-transform: none; border-radius: 4px;">
+    <a href="https://www.laweekly.com/designing-with-empathy-inside-tianqi-lius-human-centered-vision-for-the-future-of-ai/" target="_blank" class="btn btn-sm btn-outline-primary z-depth-0 d-block" style="padding: 2px 8px; font-size: 0.8rem; text-transform: none; border-radius: 4px; width: fit-content;">
       <i class="fas fa-newspaper"></i> Featured in LA Weekly: Designing with Empathy
     </a>
     <!-- Best Paper Award Badge -->
-    <a href="https://nocworkshop.github.io/2026/" target="_blank" class="btn btn-sm btn-outline-primary z-depth-0" style="padding: 2px 8px; font-size: 0.8rem; text-transform: none; border-radius: 4px;">
+    <a href="https://nocworkshop.github.io/2026/" target="_blank" class="btn btn-sm btn-outline-primary z-depth-0 d-block" style="padding: 2px 8px; font-size: 0.8rem; text-transform: none; border-radius: 4px; width: fit-content; margin-top: 6px;">
       <i class="fas fa-award"></i> Best Paper Award from The 3rd Workshop on Nonverbal Cues for Human-Robot Cooperative Intelligence (organized by Honda Research Institute)
     </a>
   </div>
@@ -74,7 +74,11 @@ Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-83
 <!-- Paper 2 -->
 <div class="row" style="margin-bottom: 30px;">
   <div class="col-sm-4 mt-3 mt-sm-0">
-    <img src="/assets/publication_img/pompeii agent.png" alt="project teaser" class="img-fluid rounded z-depth-1">
+    <div class="img-carousel" style="position: relative;">
+      <img id="pompeii-carousel-img" src="/assets/publication_img/pompeii agent.png" alt="project teaser" class="img-fluid rounded z-depth-1" style="cursor: zoom-in;" onclick="openImgLightbox(this.src)">
+      <button type="button" onclick="pompeiiCarouselNav(-1)" aria-label="Previous image" style="position: absolute; top: 50%; left: 8px; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: #fff; border: none; border-radius: 50%; width: 32px; height: 32px; cursor: pointer; font-size: 1.1rem; line-height: 1;">&#10094;</button>
+      <button type="button" onclick="pompeiiCarouselNav(1)" aria-label="Next image" style="position: absolute; top: 50%; right: 8px; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: #fff; border: none; border-radius: 50%; width: 32px; height: 32px; cursor: pointer; font-size: 1.1rem; line-height: 1;">&#10095;</button>
+    </div>
   </div>
   <div class="col-sm-8">
     <h4 style="margin-top: 0; font-size: 1.2rem;">
@@ -94,7 +98,7 @@ Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-83
 <!-- Paper 3 -->
 <div class="row" style="margin-bottom: 30px;">
   <div class="col-sm-4 mt-3 mt-sm-0">
-    <img src="/assets/publication_img/proactive agent 1.png" alt="project teaser" class="img-fluid rounded z-depth-1">
+    <img src="/assets/publication_img/proactive agent 1.png" alt="project teaser" class="img-fluid rounded z-depth-1" style="cursor: zoom-in;" onclick="openImgLightbox(this.src)">
   </div>
   <div class="col-sm-8">
     <h4 style="margin-top: 0; font-size: 1.2rem;">
@@ -115,7 +119,7 @@ Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-83
 <!-- Paper 4 -->
 <div class="row" style="margin-bottom: 30px;">
   <div class="col-sm-4 mt-3 mt-sm-0">
-    <img src="/assets/publication_img/redirected walking.png" alt="project teaser" class="img-fluid rounded z-depth-1">
+    <img src="/assets/publication_img/redirected walking.png" alt="project teaser" class="img-fluid rounded z-depth-1" style="cursor: zoom-in;" onclick="openImgLightbox(this.src)">
   </div>
   <div class="col-sm-8">
     <h4 style="margin-top: 0; font-size: 1.2rem;">
@@ -136,7 +140,7 @@ Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-83
 <!-- Paper 5 -->
 <div class="row" style="margin-bottom: 30px;">
   <div class="col-sm-4 mt-3 mt-sm-0">
-    <img src="/assets/publication_img/ESL.png" alt="project teaser" class="img-fluid rounded z-depth-1">
+    <img src="/assets/publication_img/ESL.png" alt="project teaser" class="img-fluid rounded z-depth-1" style="cursor: zoom-in;" onclick="openImgLightbox(this.src)">
   </div>
   <div class="col-sm-8">
     <h4 style="margin-top: 0; font-size: 1.2rem;">
@@ -157,7 +161,7 @@ Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-83
 <!-- Paper 6 -->
 <div class="row" style="margin-bottom: 30px;">
   <div class="col-sm-4 mt-3 mt-sm-0">
-    <img src="/assets/publication_img/AI Guide.png" alt="project teaser" class="img-fluid rounded z-depth-1">
+    <img src="/assets/publication_img/AI Guide.png" alt="project teaser" class="img-fluid rounded z-depth-1" style="cursor: zoom-in;" onclick="openImgLightbox(this.src)">
   </div>
   <div class="col-sm-8">
     <h4 style="margin-top: 0; font-size: 1.2rem;">
@@ -178,7 +182,7 @@ Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-83
 <!-- Paper 7 -->
 <div class="row" style="margin-bottom: 30px;">
   <div class="col-sm-4 mt-3 mt-sm-0">
-    <img src="/assets/publication_img/noticability.png" alt="project teaser" class="img-fluid rounded z-depth-1">
+    <img src="/assets/publication_img/noticability.png" alt="project teaser" class="img-fluid rounded z-depth-1" style="cursor: zoom-in;" onclick="openImgLightbox(this.src)">
   </div>
   <div class="col-sm-8">
     <h4 style="margin-top: 0; font-size: 1.2rem;">
@@ -199,7 +203,7 @@ Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-83
 <!-- Paper 8 -->
 <div class="row" style="margin-bottom: 30px;">
   <div class="col-sm-4 mt-3 mt-sm-0">
-    <img src="/assets/publication_img/default.png" alt="project teaser" class="img-fluid rounded z-depth-1">
+    <img src="/assets/publication_img/default.png" alt="project teaser" class="img-fluid rounded z-depth-1" style="cursor: zoom-in;" onclick="openImgLightbox(this.src)">
   </div>
   <div class="col-sm-8">
     <h4 style="margin-top: 0; font-size: 1.2rem;">
@@ -219,7 +223,7 @@ Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-83
 <!-- Paper 9 -->
 <div class="row" style="margin-bottom: 30px;">
   <div class="col-sm-4 mt-3 mt-sm-0">
-    <img src="/assets/publication_img/default.png" alt="project teaser" class="img-fluid rounded z-depth-1">
+    <img src="/assets/publication_img/default.png" alt="project teaser" class="img-fluid rounded z-depth-1" style="cursor: zoom-in;" onclick="openImgLightbox(this.src)">
   </div>
   <div class="col-sm-8">
     <h4 style="margin-top: 0; font-size: 1.2rem;">
@@ -234,4 +238,37 @@ Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-83
     </p>
   </div>
 </div>
+
+<!-- Shared image lightbox (click any paper image to enlarge, click X or background to close) -->
+<div id="img-lightbox-overlay" onclick="closeImgLightbox()" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 9999; cursor: zoom-out; align-items: center; justify-content: center;">
+  <span onclick="closeImgLightbox()" style="position: absolute; top: 20px; right: 30px; color: #fff; font-size: 2.5rem; cursor: pointer; line-height: 1;">&times;</span>
+  <img id="img-lightbox-content" src="" alt="enlarged image" style="max-width: 90%; max-height: 90%; border-radius: 4px;" onclick="event.stopPropagation();">
+</div>
+
+<script>
+  // Pompeii paper image carousel
+  var pompeiiImages = [
+    "/assets/publication_img/pompeii agent.png",
+    "/assets/publication_img/pompeii agent 1.png",
+    "/assets/publication_img/pompeii agent 2.png",
+    "/assets/publication_img/pompeii agent 3.png"
+  ];
+  var pompeiiIndex = 0;
+  function pompeiiCarouselNav(delta) {
+    pompeiiIndex = (pompeiiIndex + delta + pompeiiImages.length) % pompeiiImages.length;
+    document.getElementById('pompeii-carousel-img').src = pompeiiImages[pompeiiIndex];
+  }
+
+  // Shared lightbox for all paper images
+  function openImgLightbox(src) {
+    document.getElementById('img-lightbox-content').src = src;
+    document.getElementById('img-lightbox-overlay').style.display = 'flex';
+  }
+  function closeImgLightbox() {
+    document.getElementById('img-lightbox-overlay').style.display = 'none';
+  }
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeImgLightbox();
+  });
+</script>
 
