@@ -78,7 +78,7 @@ Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-83
   </div>
   <div class="col-sm-8">
     <h4 style="margin-top: 0; font-size: 1.2rem;">
-      Socio-Spatial Generative Agents: Autonomous Behavioral Modeling in Hierarchical Social Environments
+      Hierarchical Generative Agents for Social and Spatial Decision-Making
     </h4>
     <p style="margin-bottom: 5px;">
       <strong>Tian-Qi Liu</strong>, Nayoung Kim, Julia Sebastein, Kathryn L. Gleason, Caitlín Eilís Barrett, Andrea Stevenson Won
@@ -94,11 +94,11 @@ Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-83
 <!-- Paper 3 -->
 <div class="row" style="margin-bottom: 30px;">
   <div class="col-sm-4 mt-3 mt-sm-0">
-    <img src="/assets/publication_img/proactive agent.png" alt="project teaser" class="img-fluid rounded z-depth-1">
+    <img src="/assets/publication_img/proactive agent 1.png" alt="project teaser" class="img-fluid rounded z-depth-1">
   </div>
   <div class="col-sm-8">
     <h4 style="margin-top: 0; font-size: 1.2rem;">
-      <a href="https://dail.human.cornell.edu/projectsdail/proactive-ai-assistance%3A-understanding-and-predicting-users%E2%80%99-help-needs-in-interactive-tasks" target="_blank">From Human Intuition to Proactive Assistance: Identifying and Predicting the Need for Help through Non-Verbal Behavioral Cues in a VR kitchen Tasks</a>
+      <a href="https://dail.human.cornell.edu/projectsdail/proactive-ai-assistance%3A-understanding-and-predicting-users%E2%80%99-help-needs-in-interactive-tasks" target="_blank">Adaptive Patience: Modeling Human Help Needs for Proactive AI Intervention Timing</a>
     </h4>
     <p style="margin-bottom: 5px;">
       <strong>Tian-Qi Liu*</strong>, <strong>Diyu Zou*</strong>, Saleh Kalantari
