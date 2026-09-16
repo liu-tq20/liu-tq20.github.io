@@ -13,7 +13,7 @@ nav_order: 3
   <div class="row" style="margin-bottom: 40px;">
     <div class="col-sm-4 mt-3 mt-sm-0">
       <!-- 请替换为 Bonny 的实际图片或动图路径 -->
-      <img src="/assets/project_img/Bonny.gif" alt="Bonny Robot" class="img-fluid rounded z-depth-1">
+      <img src="/assets/project_img/Bonny.gif" alt="Bonny Robot" class="img-fluid rounded z-depth-1" style="cursor: zoom-in;" onclick="openImgLightbox(this.src)">
     </div>
     <div class="col-sm-8">
       <h3 style="margin-top: 0; font-size: 1.5rem;">Bonny — A Living Desktop Robot</h3>
@@ -35,7 +35,7 @@ nav_order: 3
   <div class="row" style="margin-bottom: 40px; margin-top: 40px;">
     <div class="col-sm-4 mt-3 mt-sm-0">
       <!-- 请替换为配载项目的实际图片或界面截图 -->
-      <img src="/assets/project_img/Nvidia x Dell Agentic AI cliped.gif" alt="Stowage Planning AI" class="img-fluid rounded z-depth-1">
+      <img src="/assets/project_img/Nvidia x Dell Agentic AI cliped.gif" alt="Stowage Planning AI" class="img-fluid rounded z-depth-1" style="cursor: zoom-in;" onclick="openImgLightbox(this.src)">
     </div>
     <div class="col-sm-8">
       <h3 style="margin-top: 0; font-size: 1.5rem;">AI for Container Ship Stowage Planning</h3>
@@ -68,7 +68,7 @@ nav_order: 3
   <div class="row" style="margin-bottom: 40px;">
     <div class="col-sm-12 text-center">
       <!-- 替换为你的实际图片名称 -->
-      <img src="/assets/project_img/Dex.jpg" alt="Dex App Interfaces" class="img-fluid rounded z-depth-1" style="width: 100%; object-fit: cover;">
+      <img src="/assets/project_img/Dex.jpg" alt="Dex App Interfaces" class="img-fluid rounded z-depth-1" style="width: 100%; object-fit: cover; cursor: zoom-in;" onclick="openImgLightbox(this.src)">
       <!-- 图片下方的灰色小字图注，增加专业感 -->
       <div class="caption mt-2" style="font-size: 0.85rem; color: #6c757d;">
         The Dex mobile interface, featuring real-time muscle load tracking, spinal health visualization, and proactive recovery interventions.
@@ -76,4 +76,23 @@ nav_order: 3
     </div>
   </div>
 
+  <!-- Shared image lightbox (click any project image to enlarge, click X or background to close) -->
+  <div id="img-lightbox-overlay" onclick="closeImgLightbox()" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 9999; cursor: zoom-out; align-items: center; justify-content: center;">
+    <span onclick="closeImgLightbox()" style="position: absolute; top: 20px; right: 30px; color: #fff; font-size: 2.5rem; cursor: pointer; line-height: 1;">&times;</span>
+    <img id="img-lightbox-content" src="" alt="enlarged image" style="max-width: 90%; max-height: 90%; border-radius: 4px;" onclick="event.stopPropagation();">
+  </div>
+
 </div>
+
+<script>
+  function openImgLightbox(src) {
+    document.getElementById('img-lightbox-content').src = src;
+    document.getElementById('img-lightbox-overlay').style.display = 'flex';
+  }
+  function closeImgLightbox() {
+    document.getElementById('img-lightbox-overlay').style.display = 'none';
+  }
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeImgLightbox();
+  });
+</script>
