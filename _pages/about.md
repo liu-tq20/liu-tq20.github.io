@@ -25,9 +25,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. student in Information Science at Cornell University, working with Prof. [Saleh Kalantari](https://scholar.google.com/citations?user=xU-3sCQAAAAJ&hl=en), Prof. [Andrea Stevenson Won](https://scholar.google.com/citations?user=3lliiesAAAAJ&hl=en) and Prof. [Qian Yang](https://scholar.google.com/citations?user=yaSMILkAAAAJ&hl=en).
+I am a Ph.D. student in Information Science at **Cornell University**, working with Prof. [Saleh Kalantari](https://scholar.google.com/citations?user=xU-3sCQAAAAJ&hl=en), Prof. [Andrea Stevenson Won](https://scholar.google.com/citations?user=3lliiesAAAAJ&hl=en) and Prof. [Qian Yang](https://scholar.google.com/citations?user=yaSMILkAAAAJ&hl=en).
 
-I hold Computer Science degrees from Tsinghua University (B.A., 2020-2024).
+I hold Computer Science degrees from **Tsinghua University** (B.A., 2020-2024).
 
 My research focuses on **proactive AI** that anticipates human states and intervenes at the right moment, as well as **generative agents** that model human decision-making in spatial movement.
 
