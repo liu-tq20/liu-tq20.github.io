@@ -85,7 +85,7 @@ Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-83
     </p>
     <p style="margin-bottom: 10px;"><em>Submitted to PNAS Nexus</em></p>
     <p style="font-size: 0.9rem; text-align: justify;">
-      Aimed to engineer a socio-spatially aware generative agent architecture that autonomously navigates the complex hierarchical decorum and environmental constraints of ancient Roman domestic life, transcending generic LLM behaviors through status-driven spatial reasoning.
+      Aimed to engineer a socio-spatially aware generative agent architecture that autonomously navigates the complex hierarchical decorum and environmental constraints, transcending generic LLM behaviors through status-driven spatial reasoning.
     </p>
   </div>
 </div>
@@ -101,11 +101,11 @@ Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-83
       <a href="https://dail.human.cornell.edu/projectsdail/proactive-ai-assistance%3A-understanding-and-predicting-users%E2%80%99-help-needs-in-interactive-tasks" target="_blank">Adaptive Patience: Modeling Human Help Needs for Proactive AI Intervention Timing</a>
     </h4>
     <p style="margin-bottom: 5px;">
-      <strong>Tian-Qi Liu*</strong>, <strong>Diyu Zou*</strong>, Saleh Kalantari
+      <strong>Tian-Qi Liu*</strong>, Diyu Zou*, Saleh Kalantari
     </p>
     <p style="margin-bottom: 10px;"><em>Submitted to CHI 2027</em></p>
     <p style="font-size: 0.9rem; text-align: justify;">
-      Aimed to evaluate how proactive assistance triggered by behavioral and environmental cues influences user performance and experience in VR, subsequently leveraging these insights to train a machine learning model for autonomous intervention.
+      Aimed to evaluate how proactive assistance triggered by behavioral and environmental cues influences user performance and experience, subsequently leveraging these insights to train a machine learning model for autonomous intervention.
     </p>
     
   </div>
