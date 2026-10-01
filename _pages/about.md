@@ -67,6 +67,11 @@ Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-83
     <a href="https://nocworkshop.github.io/2026/" target="_blank" class="btn btn-sm btn-outline-primary z-depth-0 d-block" style="padding: 2px 8px; font-size: 0.8rem; text-transform: none; border-radius: 4px; width: fit-content; margin-top: 6px;">
       <i class="fas fa-award"></i> Best Paper Award
     </a>
+    <!-- Cornell University Newsletter Media Coverage Badge -->
+    <!-- TODO: replace href="#" with the newsletter article URL -->
+    <a href="#" target="_blank" class="btn btn-sm btn-outline-primary z-depth-0 d-block" style="padding: 2px 8px; font-size: 0.8rem; text-transform: none; border-radius: 4px; width: fit-content; margin-top: 6px;">
+      <i class="fas fa-newspaper"></i> Featured in Cornell University Newsletter
+    </a>
   </div>
 </div>
 <hr>
