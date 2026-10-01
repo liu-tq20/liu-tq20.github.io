@@ -93,7 +93,7 @@ Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-83
     </p>
     <!-- arXiv Preprint Badge -->
     <a href="https://arxiv.org/abs/2609.38113" target="_blank" class="btn btn-sm btn-outline-primary z-depth-0 d-block" style="padding: 2px 8px; font-size: 0.8rem; text-transform: none; border-radius: 4px; width: fit-content;">
-      <i class="fas fa-file-alt"></i> arXiv Preprint
+      <i class="fas fa-file-alt"></i> Preview
     </a>
   </div>
 </div>
@@ -117,7 +117,7 @@ Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-83
     </p>
     <!-- Preprint Preview Badge (first 3 pages) -->
     <a href="/adaptive-patience/" target="_blank" class="btn btn-sm btn-outline-primary z-depth-0 d-block" style="padding: 2px 8px; font-size: 0.8rem; text-transform: none; border-radius: 4px; width: fit-content;">
-      <i class="fas fa-file-pdf"></i> Preview Preprint
+      <i class="fas fa-file-pdf"></i> Preview
     </a>
     
   </div>
