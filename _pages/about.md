@@ -29,7 +29,7 @@ I am a Ph.D. student in Information Science at **Cornell University**, working w
 
 I hold Computer Science degrees from **Tsinghua University** (B.A., 2020-2024).
 
-My research focuses on **proactive AI** that anticipates human states and intervenes at the right moment, as well as **generative agents** that model human decision-making in 2D or 3D spaces.
+My research focuses on **agents** that model human decision-making in 2D or 3D spaces, as well as **proactive AI** that anticipates human states and intervenes at the right moment.
 
 I am the co-founder of ItsLife, where we're building AI (deep RL) -powered stowage planning software for container shipping — and I'm glad to share our team was admitted to [eLab accelerator](https://www.elabstartup.com/).
 
@@ -116,9 +116,9 @@ Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-83
       Aimed to evaluate how proactive assistance triggered by behavioral and environmental cues influences user performance and experience, subsequently leveraging these insights to train a machine learning model for autonomous intervention.
     </p>
     <!-- Preprint Preview Badge (first 3 pages) -->
-    <button type="button" onclick="openPdfPreview('/assets/img/preprint_pdf/Adaptive%20Patience_Proactive%20Agent.pdf', 3)" class="btn btn-sm btn-outline-primary z-depth-0 d-block" style="padding: 2px 8px; font-size: 0.8rem; text-transform: none; border-radius: 4px; width: fit-content;">
+    <a href="/adaptive-patience/" target="_blank" class="btn btn-sm btn-outline-primary z-depth-0 d-block" style="padding: 2px 8px; font-size: 0.8rem; text-transform: none; border-radius: 4px; width: fit-content;">
       <i class="fas fa-file-pdf"></i> Preview Preprint
-    </button>
+    </a>
     
   </div>
 </div>
@@ -253,12 +253,6 @@ Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-83
   <img id="img-lightbox-content" src="" alt="enlarged image" style="max-width: 90%; max-height: 90%; border-radius: 4px;" onclick="event.stopPropagation();">
 </div>
 
-<!-- PDF preview overlay (renders only the first few pages via PDF.js) -->
-<div id="pdf-preview-overlay" onclick="closePdfPreview()" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 9999; overflow-y: auto; cursor: zoom-out;">
-  <span onclick="closePdfPreview()" style="position: fixed; top: 20px; right: 30px; color: #fff; font-size: 2.5rem; cursor: pointer; line-height: 1;">&times;</span>
-  <div id="pdf-preview-pages" onclick="event.stopPropagation();" style="max-width: 850px; width: 92%; margin: 40px auto; cursor: default;"></div>
-</div>
-
 <script>
   // Pompeii paper image carousel
   var pompeiiImages = [
@@ -282,75 +276,8 @@ Feel free to connect me via [Linkedin](https://www.linkedin.com/in/tianqi-liu-83
     document.getElementById('img-lightbox-overlay').style.display = 'none';
   }
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape') {
-      closeImgLightbox();
-      closePdfPreview();
-    }
+    if (e.key === 'Escape') closeImgLightbox();
   });
 
-  // PDF preview: lazily load PDF.js and render the first N pages
-  var pdfjsSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js";
-  var pdfjsWorkerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
-  var pdfPreviewLoaded = null;
-  function loadPdfjs() {
-    if (window.pdfjsLib) return Promise.resolve();
-    return new Promise(function (resolve, reject) {
-      var s = document.createElement('script');
-      s.src = pdfjsSrc;
-      s.onload = function () {
-        window.pdfjsLib.GlobalWorkerOptions.workerSrc = pdfjsWorkerSrc;
-        resolve();
-      };
-      s.onerror = reject;
-      document.head.appendChild(s);
-    });
-  }
-  function openPdfPreview(url, maxPages) {
-    var container = document.getElementById('pdf-preview-pages');
-    document.getElementById('pdf-preview-overlay').style.display = 'block';
-    document.body.style.overflow = 'hidden';
-    if (pdfPreviewLoaded === url) return;
-    pdfPreviewLoaded = url;
-    container.innerHTML = '<p style="color: #fff; text-align: center;">Loading preview…</p>';
-    loadPdfjs()
-      .then(function () {
-        return window.pdfjsLib.getDocument(url).promise;
-      })
-      .then(function (pdf) {
-        container.innerHTML = '';
-        var n = Math.min(maxPages, pdf.numPages);
-        var chain = Promise.resolve();
-        for (var i = 1; i <= n; i++) {
-          (function (pageNum) {
-            chain = chain.then(function () {
-              return pdf.getPage(pageNum).then(function (page) {
-                var scale = 2;
-                var viewport = page.getViewport({ scale: scale });
-                var canvas = document.createElement('canvas');
-                canvas.width = viewport.width;
-                canvas.height = viewport.height;
-                canvas.style.cssText = 'width: 100%; display: block; margin-bottom: 16px; border-radius: 4px; background: #fff;';
-                container.appendChild(canvas);
-                return page.render({ canvasContext: canvas.getContext('2d'), viewport: viewport }).promise;
-              });
-            });
-          })(i);
-        }
-        return chain.then(function () {
-          var note = document.createElement('p');
-          note.style.cssText = 'color: #ccc; text-align: center; font-size: 0.9rem;';
-          note.textContent = 'Preview limited to the first ' + n + ' pages.';
-          container.appendChild(note);
-        });
-      })
-      .catch(function () {
-        pdfPreviewLoaded = null;
-        container.innerHTML = '<p style="color: #fff; text-align: center;">Failed to load preview.</p>';
-      });
-  }
-  function closePdfPreview() {
-    document.getElementById('pdf-preview-overlay').style.display = 'none';
-    document.body.style.overflow = '';
-  }
 </script>
 
